@@ -1,0 +1,48 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button
+{
+    background-color: limegreen;
+    padding:15px 30px;
+    font-size:20px;
+    border-radius:30px;
+    cursor:pointer;
+    border:3px solid darkgreen;
+    color: white; 
+    text-align: center;
+}
+.button:hover
+{
+    background-color:#5cbf2a;
+}
+.button:active 
+{
+    position:relative;
+    top:1px;
+}
+input[type=text], input[type=password], input[type=date], input[type=text]
+{
+    padding:10px 15px;
+    width:200px;
+    border-radius:10px;
+    border: 1px black solid;
+    align-items: center;
+}
+.grid {
+    border: none;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 15px 25px 15px 25px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 10px;
+    align-items: center;
+  }
+ .checkmsg{
+    color: red;
+ } 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8"><meta>
+        <title>註冊表單</title>
+        <link rel="stylesheet" href="regist.css">
+        <script src="regist.js"></script>
+    </head>
+    <body>
+        <div class="grid">
+            <h1 style="text-align:center">Sign in</h1>
+            <p><input type="text" placeholder="Your name"/></p>
+            <p><input type="date" placeholder="Your birthday"/></p>
+            <p><input type="text" placeholder="Your Phone number" name="phone" onclick="javascript:clearPhoneMsg();"/></p>
+            <td><div class="checkmsg" id="phonemsg4"></div></td>
+            <p><input type="text" placeholder="Your email"/></p>
+            <p><input type="password" placeholder="Your password" name="Password" onclick="javascript:clearPhoneMsg();"/></p>
+            <td><div class="checkmsg" id="phonemsg"></div></td>
+            <p><input type="password" placeholder="Repeat your password" name="repeat password" onclick="javascript:clearPhoneMsg();"/></p>
+            <td><div class="checkmsg" id="phonemsg2"></div></td>
+            <p><input type="checkbox" name="agree" onclick="javascript:clearPhoneMsg();"/> I agree all statements in <a href="#">Terms of service</a></p>
+            <td><div class="checkmsg" id="phonemsg3" ></div></td>
+            <button class="button" onclick="javascript: registcheck();">Sign up</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8"><meta>
+        <title>HTML簡介</title>
+    </head>
+    <body style=background-color:beige>
+        <h2>一、網頁設計的三大技術</h2>
+        <ul>
+            <li>HTML – 網頁的骨架</li>
+            <li>CSS – 網頁的美觀及排版</li>
+            <li>JS – 網頁的功能</li>
+            <img src="https://upload.cc/i1/2022/06/13/O1XLKv.png"/>
+        </ul>
+        <hr/>
+       
+        <h2>二、HTML基本架構</h2>
+        <p>	用一個一個標籤來做表示: 開始標籤< >、關閉標籤< / >，兩兩成對，且標籤裡面的內容須做”縮排”的動作。</p>
+        <img src="https://upload.cc/i1/2022/06/13/ex6Cc4.png"/>
+        <h3>1.< !DOCTYPE html ></h3>
+        <p>告訴瀏覽器這個檔案的類型。</p>
+        <img src="https://upload.cc/i1/2022/06/13/txKRFh.png"/>
+        <h3>2.< head ></head></h3>
+        <p>表示網頁的資訊。</p>
+        <img src="https://upload.cc/i1/2022/06/13/exhalO.png"/>
+        <h3>3.< title ></title></h3>
+        <p>表示網頁的標題。</p>
+        <img src="https://upload.cc/i1/2022/06/13/lIGEoO.png"/>
+        <h3>4.< body ></body></h3>
+        <p>表示網頁主要看到的內容。</p>
+        <img src="https://upload.cc/i1/2022/06/13/MkQOFu.png"/>
+        <br/>
+        <img src="https://upload.cc/i1/2022/06/13/qdxrtO.png" width="300"/>
+        <h3>5.< !--  -- ></h3>
+        <p>為HTML註解，是寫給人類看的筆記，因此當程式碼在執行時會自動跳過此行不去執行，註解內容亦不會對程式結果造成影響。</p>
+        <img src="https://upload.cc/i1/2022/06/13/DAK9pN.png"/>
+        <hr/>
+
+        <h2>三、基本標籤</h2>
+        <h3>1.標題< h ></h3>
+        <p>< h1 >到< h6 >代表標題，數字越大字體越小，依序從最重要到最不重要。</p>
+        <img src="https://upload.cc/i1/2022/06/13/tupOrg.png"/>
+        <h1>這是< h1 >的大小</h1>
+        <h2>這是< h2 >的大小</h2>
+        <h3>這是< h3 >的大小</h3>
+        <h4>這是< h4 >的大小</h4>
+        <h5>這是< h5 >的大小</h5>
+        <h6>這是< h6 >的大小</h6>
+        
+        <h3>2.內文< p ></h3>
+        <p>表達一般的內容或段落</p>
+        <img src="https://upload.cc/i1/2022/06/13/DOrc7C.png"/>
+        <h3>我是標題一</h3>
+        <p>我是內容一</p>
+        <h3>我是標題二</h3>
+        <p>我是內容二</p>
+
+        <h3>3.粗體字< b ></h3>
+        <p>為粗體字，將想變成粗體的文字放在標籤中即可。</p>
+        <img src="https://upload.cc/i1/2022/06/13/mfYqaS.png"/>
+        <p>我是正常字</p>
+        <p><b>我是粗體字</b></p>
+        
+        <h3>4.斜體字< i ></h3>
+        <p>< i >為斜體字，將想變成斜體的文字放在標籤中即可。</p>
+        <img src="https://upload.cc/i1/2022/06/13/PKCXxZ.png"/>
+        <p>我是正常字</p>
+        <p><i>我是斜體字</i></p>
+
+        <h3>5.換行< br ></h3>
+        <p>< br >、< /br >表示換行，因中間不會插入文字，所以可以直接以< br/ >表示。</p>
+        <img src="https://upload.cc/i1/2022/06/13/B8lUIa.png"/>
+        <P>我們中間沒換行</P>
+        <P>我們中間沒換行</P>
+        <br/>
+        <P>我們中間有換行</P>
+        <br/>
+        <P>我們中間有換行</P>
+
+        <h3>6.水平線< hr ></h3>
+        <p>< hr >、< /hr >表示水平線，因中間不會插入文字，因此可以直接以< hr/ >表示。</p>
+        <img src="https://upload.cc/i1/2022/06/13/qd6RPE.png"/>
+        <br/>
+        <img src="https://upload.cc/i1/2022/06/13/zsbWmh.png"/>
+        <hr/>
+
+        <h2>四、連結</h2>
+        <ul>
+            <li>加入< a >可放入連結，且在開始標籤後面加入屬性href=" "</li>
+            <li>並在雙引號中加入想要連結到的網站網址</li>
+            <li>將想要顯示在畫面中的連結文字寫在開始關閉標籤中間即可完成此連結</li>
+            <img src="https://upload.cc/i1/2022/06/13/1zMf9c.png" width ="600"/>
+            <br/>
+            <a href="https://www.youtube.com/watch?v=CLUPkcLQm64&list=LL&index=3" >HTML教學影片</a>
+        </ul>
+        <hr/>
+
+        <h2>五、圖片</h2>
+        <ul>
+            <li>插入圖片的標籤< img >因中間不會插入文字，所以可以直接以< img/ >表示。</li>
+            <li>在img後面加入圖片屬性src=" "，並在引號中加入外部圖片連結或內部圖片檔名即可。</li>
+            <img src="https://upload.cc/i1/2022/06/13/zE12pT.png" width ="600"/>
+            <br/>
+            <img src="https://www.liku.com.tw/wp-content/uploads/2022/06/BTS-1200x800.jpg"width="400"/>
+            <li>如果想改變照片的大小，可加入width跟height屬性</li>
+            <img src="https://upload.cc/i1/2022/06/13/hTKvcx.png" width ="600"/>
+            <li>width=" "定義圖片寬度</li>
+            <li>height=" "定義圖片高度</li>
+            <li>若想等比例縮放，只需定義width或height其中一項即可</li>
+        </ul>
+        <hr/>
+
+        <h2>六、嵌入影片</h2>
+        <ul>
+            <li>在youtube中開啟選擇的影片，並按「分享」，之後點選「嵌入」</li>
+            <li>複製該網址即可</li>
+            <img src="https://upload.cc/i1/2022/06/13/GDcd8r.png"/>
+            <br/>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CLUPkcLQm64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </ul>
+        <hr/>
+
+        <h2>七、列表</h2>
+        <ul>
+            <li>加入< ul >標籤即可產生列表</li>
+            <li>加入< li >標籤即可產生列表裡的內容</li>
+            <img src="https://upload.cc/i1/2022/06/13/JPXOjS.png"/>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
+            <li>若將< ul >改成< ol >，即可將「●」變成「數字」</li>
+            <img src="https://upload.cc/i1/2022/06/13/OVeg3Q.png"/>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ol>
+            <li>若想將「數字」改為「字母」，可在< ol >標籤後加入type=" "屬性</li>
+            <li>引號內若輸入大寫"A"，則會是大寫字母列點</li>
+            <img src="https://upload.cc/i1/2022/06/13/tAl1qB.png"/>
+            <ol type="A">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ol>
+            <li>引號內若輸入小寫"a"，則會是小寫字母列點</li>
+            <img src="https://upload.cc/i1/2022/06/13/PtqAYs.png"/>
+            <ol type="a">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ol>
+            <li>引號內若輸入小寫"i"，則會是小寫羅馬數字母列點</li>
+            <img src="https://upload.cc/i1/2022/06/13/EQ4Z9c.png"/>
+            <ol type="i">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ol>
+            <li>引號內若輸入大寫"I"，則會是大寫羅馬數字母列點</li>
+            <img src="https://upload.cc/i1/2022/06/13/bQqCx8.png"/>
+            <ol type="I">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ol>
+        </ul>
+        <hr/>
+
+        <h2>八、表格</h2>
+        <ul>
+            <li>加入< table >標籤即可產生表格</li>
+            <li>< tr >代表一列</li>
+            <li>一列裡面的內容用< td >表示</li>
+            <img src="https://upload.cc/i1/2022/06/13/sfY8zR.png"/>
+            <table>
+                <tr>
+                    <td>年齡</td>
+                    <td>身高</td>
+                    <td>體重</td>
+                </tr>
+                <tr>
+                    <td>18y</td>
+                    <td>160cm</td>
+                    <td>50kg</td>
+                </tr>
+                <tr>
+                    <td>20y</td>
+                    <td>180cm</td>
+                    <td>80kg</td>
+                </tr>
+                    
+                </tr>
+            </table>
+            <li>若想改變表格內間距，可用width=" "或height=" "屬性調整</li>
+            <img src="https://upload.cc/i1/2022/06/13/vWMsNe.png"/>
+            <table width="300" height="200">
+                <tr>
+                    <td>年齡</td>
+                    <td>身高</td>
+                    <td>體重</td>
+                </tr>
+                <tr>
+                    <td>18y</td>
+                    <td>160cm</td>
+                    <td>50kg</td>
+                </tr>
+                <tr>
+                    <td>20y</td>
+                    <td>180cm</td>
+                    <td>80kg</td>
+                </tr>
+                    
+                </tr>
+            </table>
+        </ul>
+        <hr/>
+
+        <h2>九、容器< div >和< span ></h2>
+        <ul>
+            <li>使加入CSS美化畫面時更加方便</li>
+            <li>< div >和< span >的差異</li>
+            <p>< span >:寬度是多少，佔的空間就是多少</p>
+            <p>< div >:不管寬度多少，佔的空間就是一整行</p>
+            <img src="https://upload.cc/i1/2022/06/13/OXbrxD.png"/>
+            <br/>
+            <img src="https://upload.cc/i1/2022/06/13/isUDp4.png"/>
+        </ul>
+        <hr/>
+        
+        <h2>十、輸入欄位< input >和< textarea ></h2>
+        <ul>
+            <li>輸入< input >可在畫面中增加輸入欄位</li>
+            <li>在< input >後面增加屬性type=" "來表達輸入內容的類型</li>
+            <li>引號內輸入"text"代表輸入純文字</li>
+            <li>不須關閉標籤，以< input/ >表示</li>
+            <img src="https://upload.cc/i1/2022/06/13/t2zsT3.png"/>
+            <br/>
+            <br/>
+            <input type="text"/>
+            <br/>
+            <br/>
+            
+            <li>將屬性類型改為"password"，可隱藏輸入的內容</li>
+            <img src="https://upload.cc/i1/2022/06/13/xVRpMs.png"/>
+            <br/>
+            <br/>
+            <input type="password"/>
+            <br/>
+            <br/>
+            
+            <li>在type=" "屬性後面增加屬性placeholder=" "來表達輸入欄位的提醒</li>
+            <img src="https://upload.cc/i1/2022/06/13/v8q7p0.png"/>
+            <br/>
+            <br/>
+            <input type="text" placeholder="請輸入姓名"/>
+            <br/>
+            <br/>
+            
+            <li>將type=" "屬性類型改為"date"，可產生日期欄位</li>
+            <img src="https://upload.cc/i1/2022/06/13/HSz0kh.png"/>
+            <br/>
+            <br/>
+            <input type="date"/>
+            <br/>
+            <br/>
+            
+            <li>將type=" "屬性類型改為"range"，可產生拖拉軸</li>
+            <img src="https://upload.cc/i1/2022/06/13/jBXGRm.png"/>
+            <br/>
+            <br/>
+            <input type="range"/>
+            <br/>
+            <br/>
+
+            <li>將type=" "屬性類型改為"file"，可產生檔案選擇欄位</li>
+            <img src="https://upload.cc/i1/2022/06/13/LfFqUT.png"/>
+            <br/>
+            <br/>
+            <input type="file"/>
+            <br/>
+            <br/>
+
+            <li>將type=" "屬性類型改為"checkbox"，可產生勾選欄位</li>
+            <img src="https://upload.cc/i1/2022/06/13/HiD0Bd.png"/>
+            <br/>
+            <br/>
+            <input type="checkbox"/>
+            <br/>
+            <br/>
+
+            <li>輸入< textarea >可在畫面中增加文章欄位</li>
+            <img src="https://upload.cc/i1/2022/06/13/FmfIvQ.png"/>
+            <br/>
+            <br/>
+            <textarea></textarea>
+            <br/>
+            <br/>
+
+            <li>在< textarea >開啟關閉標籤中輸入文字，將會成為文章欄位預設文字</li>
+            <img src="https://upload.cc/i1/2022/06/13/Odwghy.png"/>
+            <br/>
+            <br/>
+            <textarea>啊囉哈~</textarea>
+            <br/>
+        </ul>
+        <hr/>
+
+        <h2>十一、meta標籤</h2>
+            <p>告訴這個搜尋引擎有關這個網頁的資訊</p>
+            <ul>
+                <li>description: 網頁的詳細資訊</li>
+                <li>author: 網頁的作者</li>
+                <li>keywords: 網頁的關鍵字</li>
+            </ul>
+    </body>
+        
+</html>
